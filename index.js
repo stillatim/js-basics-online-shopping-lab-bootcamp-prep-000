@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
 
-var int = 100 * parseInt((Math.random() * 100), 10)
+var int = 
 var object = {
   itemName: `${item}`,
   itemPrice: `${int}`
