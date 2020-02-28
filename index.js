@@ -12,12 +12,19 @@ function setCart(c) {
 function addToCart(item) {
 var object = {
   itemName: `${item}`,
-  itemPrice: `${Math.floor(Math.random() * Math.floor(100))}`
+  itemPrice: `${Math.random() * 100}`
 }
  cart.push(object);
  return cart; 
- 
+
 }
+
+
+min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+
+
 
 function viewCart() {
   // write your code here
