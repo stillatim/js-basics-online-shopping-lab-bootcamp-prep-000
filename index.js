@@ -14,7 +14,7 @@ function addToCart(item) {
 function randomInt() {
   min = Math.ceil();
   max = Math.floor();
-  return Math.floor(Math.random() * (max - min)) + min
+  console.log(Math.floor(Math.random() * (max - min)) + min)
 }
 
 var object = {
