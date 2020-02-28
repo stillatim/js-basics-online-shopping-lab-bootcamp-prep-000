@@ -21,8 +21,9 @@ var object = {
 
 
 function viewCart() {
-if (cart.length > 0) {
-  for (let i = 0; i < cart.length; i++)
+  for (let i = 0; i < cart.length; i++) {
+    
+  }
 } else { 
   return ("Your shopping cart is empty.")
 }
