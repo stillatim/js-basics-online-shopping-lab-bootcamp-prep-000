@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
 var object = {
-  itemName: 'item',
+  itemName: `${item}`,
   itemPrice: `${(Math.random() * Math.floor(1000))}`
 }
  cart.push(object);
