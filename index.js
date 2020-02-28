@@ -17,11 +17,19 @@ var object = {
   }
  cart.push(object);
  return `${item} has been added to your cart.` 
-
 }
 
+// what the fuck with the first error???
+
 function viewCart() {
-  // write your code here
+if (cart.length = 0) {
+  console.log(`Your shopping cart is empty.`)
+} else { 
+  console.log(`test`)
+}
+} 
+
+
 }
 
 function total() {
