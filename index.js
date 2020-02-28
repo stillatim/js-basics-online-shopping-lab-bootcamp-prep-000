@@ -22,9 +22,15 @@ var object = {
 
 function viewCart() {
   for (let i = 0; i < cart.length; i++) {
-    if i === 0) {
+    if (i === 0) {
       console.log("Your shopping cart is empty."); 
+    } else { 
+     if (i === 1) {
+       console.log(`In your cart, you have ${item} at $${itemPrice}.`)
+    } else {
       
+    }
+     } 
     }
     
   }
