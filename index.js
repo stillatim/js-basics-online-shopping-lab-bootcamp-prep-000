@@ -11,12 +11,11 @@ function setCart(c) {
 
 function addToCart(item) {
 
-var int = parseInt()
-
+var int = 100 * parseInt((Math.random() * 100), 10)
 var object = {
   itemName: `${item}`,
-  itemPrice: `${100 * parseInt((Math.random() * 100), 10)}`
-}
+  itemPrice: `${int}`
+  }
  cart.push(object);
  return `${item} has been added to your cart.` 
 
