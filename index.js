@@ -10,6 +10,11 @@ function setCart(c) {
 }
 
 function addToCart(item) {
+
+function randomInt() {
+  
+}
+
 var object = {
   itemName: `${item}`,
   itemPrice: `${Math.random() * 100}`
