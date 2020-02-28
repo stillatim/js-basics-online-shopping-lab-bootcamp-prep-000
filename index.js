@@ -28,17 +28,11 @@ function viewCart() {
      if (i === 1) {
        console.log(`In your cart, you have ${item} at $${itemPrice}.`)
     } else {
-      
+      console.log('test')
     }
      } 
     }
-    
-  }
-} else { 
-  return ("Your shopping cart is empty.")
 }
-} 
-
 
 
 
