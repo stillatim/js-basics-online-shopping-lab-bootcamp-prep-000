@@ -22,7 +22,7 @@ var object = {
 
 function viewCart() {
 if (cart.length > 0) {
-  console.log
+  
 } else { 
   return ("Your shopping cart is empty.")
 }
