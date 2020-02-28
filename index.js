@@ -22,6 +22,7 @@ var object = {
 
 function viewCart() {
   for (let i = 0; i < cart.length; i++) {
+    if i === 0
     
   }
 } else { 
