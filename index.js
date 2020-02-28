@@ -19,7 +19,6 @@ var object = {
  return `${item} has been added to your cart.` 
 }
 
-// what the fuck with the first error???
 
 function viewCart() {
 if (cart.length = 0) {
