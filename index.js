@@ -11,16 +11,10 @@ function setCart(c) {
 
 function addToCart(item) {
  var object = {itemName, itemPrice}
- object.itemName = 
- return Object.assign({}, )
- 
- return Object.assign({}, recipes, {[a] : b})
- 
- 
-  item.itemName = `${item}`;
- item.itemPrice = `${(Math.random() * Math.floor(1000))}`; 
- 
- cart.push(itemName, itemPrice)
+ object.itemName = 'item'; 
+ object.itemPrice = `${(Math.random() * Math.floor(1000))}`
+ cart.push(object);
+ return cart; 
  
 }
 
