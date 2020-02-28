@@ -13,8 +13,8 @@ function addToCart(item) {
 
 var int = Math.floor(Math.random() * (100)) + 1
 var object = {
-  itemName: `${item}`,
-  itemPrice: `${Math.floor(Math.random() * 100) + 1} `
+  name: `${item}`,
+  price: `${Math.floor(Math.random() * 100) + 1} `
   }
  cart.push(object);
  return `${item} has been added to your cart.` 
