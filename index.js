@@ -21,6 +21,9 @@ var object = {
 
 
 function viewCart() {
+  if (cart.length === 0) {
+    console.log ('Your shopping cart is empty.')
+  } else {
   for (let i = 0; i < cart.length; i++) {
      if (i === 1) {
        return(`In your cart, you have ${item} at $${itemPrice}.`)
@@ -29,7 +32,7 @@ function viewCart() {
     }
      } 
     }
-
+}
 
 
 function total() {
