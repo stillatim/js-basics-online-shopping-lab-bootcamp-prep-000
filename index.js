@@ -11,9 +11,11 @@ function setCart(c) {
 
 function addToCart(item) {
 
+
+
 var object = {
   itemName: `${item}`,
-  price: `${Math.random()}`
+  itemPrice: `${Math.random()}`
 }
  cart.push(object);
  return `${item} has been added to your cart.` 
