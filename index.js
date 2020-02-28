@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
 
-var int = 
+var int = Math.floor(Math.random() * (100)) + 1
 var object = {
   itemName: `${item}`,
   itemPrice: `${int}`
