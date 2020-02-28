@@ -26,9 +26,9 @@ function viewCart() {
   } else {
   for (let i = 0; i < cart.length; i++) {
      if (i === 1) {
-       return(`In your cart, you have ${item} at $${itemPrice}.`)
+       return(`In your cart, you have ${NAME OF ITEM AS RETRIEVED FROM THE CART ARRAY} at $${PRICE OF ITEM AS RETRIEVED FROM THE CART ARRAY}.`)
     } else {
-      return(`In your cart, you have ${item} at $${itemPrice}.`)
+      return(SERIOUSLY WHAT THE FUCK)
     }
      } 
     }
