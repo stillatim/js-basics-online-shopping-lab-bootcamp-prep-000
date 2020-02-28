@@ -30,7 +30,7 @@ if (cart.length = 0) {
 } 
 
 
-}
+
 
 function total() {
   // write your code here
