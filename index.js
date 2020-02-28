@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  var object = {itemName, itemPrice}
- object.itemName
+ object.itemName = 
  return Object.assign({}, )
  
  return Object.assign({}, recipes, {[a] : b})
