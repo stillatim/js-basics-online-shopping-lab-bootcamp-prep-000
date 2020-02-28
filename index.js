@@ -21,8 +21,8 @@ var object = {
 
 
 function viewCart() {
-if (cart.length = 0) {
-  return("Your shopping cart is empty.")
+if (cart.length > 0) {
+  //LOOP
 } else { 
   return ("Your shopping cart is empty.")
 }
