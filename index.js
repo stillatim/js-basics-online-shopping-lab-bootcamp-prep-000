@@ -16,7 +16,7 @@ var object = {
   itemPrice: `${Math.random()}`
 }
  cart.push(object);
- return cart; 
+ return `${item} has been added to your cart.` 
 
 }
 
