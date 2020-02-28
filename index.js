@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
 
-var int = 
+var int = parseInt()
 
 var object = {
   itemName: `${item}`,
