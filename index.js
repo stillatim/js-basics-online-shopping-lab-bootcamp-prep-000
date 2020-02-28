@@ -15,7 +15,7 @@ function addToCart(item) {
 
 var object = {
   itemName: `${item}`,
-  itemPrice: `${parseInt(Math.random())}`
+  itemPrice: `${parseInt(Math.random() * 100, 10)}`
 }
  cart.push(object);
  return `${item} has been added to your cart.` 
